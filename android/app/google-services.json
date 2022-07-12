@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "876459169996",
+    "project_id": "lastdance-a2b40",
+    "storage_bucket": "lastdance-a2b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876459169996:android:974773ad39b30fe3a38a69",
+        "android_client_info": {
+          "package_name": "com.lastdance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876459169996-1bnskvi52fgpub3bn6rbksgts208jt6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lastdance",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "876459169996-3i8q4po82jjc8nlo8hr03aela468jplj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKL_T1MAQMRt1mFUP-LbrBaX-Z8Kfdz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876459169996-3i8q4po82jjc8nlo8hr03aela468jplj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
