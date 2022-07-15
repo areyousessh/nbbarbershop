@@ -55,9 +55,13 @@ export function Profile () {
     handleFetchData()
   }, [])
 
+  function handleLogout() {
+    auth().signOut()
+  }
+
     return (
         <View style={styles.container}>
-          <TouchableOpacity style={styles.logoutButton} activeOpacity={0.7} >
+          <TouchableOpacity style={styles.logoutButton} activeOpacity={0.7} onPress={handleLogout}>
             <MaterialCommunityIcons name="logout" size={24} color={theme.colors.activeTint} />
           </TouchableOpacity>
 

@@ -12,7 +12,7 @@ export function BottomTabs() {
     const Tab = createBottomTabNavigator()
 
     return(
-        <Tab.Navigator initialRouteName="Home" screenOptions={{headerShown: false, tabBarActiveTintColor:"#F51C12", tabBarInactiveTintColor:"#869292", tabBarStyle:{backgroundColor:"#121212", paddingBottom: getBottomSpace() -5,  } }}>
+        <Tab.Navigator initialRouteName="Home" screenOptions={{headerShown: false, tabBarActiveTintColor:"#F51C12", tabBarInactiveTintColor:"#869292", tabBarStyle:{backgroundColor:"#121212", paddingBottom: getBottomSpace() +4,  } }}>
             <Tab.Screen name="Horários" component={Schedules} options={{tabBarIcon:({size, color}) => (
                 <MaterialIcons name="schedule" size={24} color="white"/> )}} />
 

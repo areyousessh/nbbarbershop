@@ -14,16 +14,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "876459169996-1bnskvi52fgpub3bn6rbksgts208jt6p.apps.googleusercontent.com",
+          "client_id": "876459169996-or568lu3qn3us8hpaq5s0c83001m6pgu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.lastdance",
-            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+            "certificate_hash": "c7ba1da324c0f6e3cda983ebeebadbdb3c83f5af"
           }
-        },
-        {
-          "client_id": "876459169996-3i8q4po82jjc8nlo8hr03aela468jplj.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -37,6 +33,13 @@
             {
               "client_id": "876459169996-3i8q4po82jjc8nlo8hr03aela468jplj.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "876459169996-0kpc2jideflbt072iri25agtehgnl9kv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.name.lastdance"
+              }
             }
           ]
         }

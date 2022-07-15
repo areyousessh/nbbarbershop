@@ -7,11 +7,11 @@ type Props = TouchableOpacityProps & {
     title: string
 }
 
-export function SocialButtonPhone({title, ...rest} : Props) {
+export function SocialButtonIphone({title, ...rest} : Props) {
 return(
     <TouchableOpacity style={styles.container}>
         <View style={styles.iconWrapper}>
-            <Image source={require('../../assets/phone-logo.png')} style={styles.logo}/>
+            <Image source={require('../../assets/apple-logo.png')} style={styles.logo}/>
         </View>
             <Text style={styles.title}>
                 {title}

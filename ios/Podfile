@@ -15,6 +15,18 @@ target 'lastdance' do
   use_expo_modules!
   config = use_native_modules!
 
+target 'test_google_signin' do 
+  pod 'GoogleSignIn', '-> 6.1.0'
+
+target 'test_google_signin-tvOSTests' do
+inherit! :search_paths
+end
+
+target 'test_google_signinTests' do
+inherit! :search_paths
+end
+end
+
   use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
 
   # Flags change depending on the env values.
@@ -49,3 +61,7 @@ target 'lastdance' do
   end
 
 end
+
+
+
+
